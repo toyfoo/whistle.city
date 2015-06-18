@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HwdLib Debug.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>HwdLib Release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>HwdLibDll Debug.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>HwdLibDll Release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FF4DC8FC1AB5A6AA00982E09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF7081601AB623C8000DE83D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFD76D611AB5AE0E0031AF6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFD76D6A1AB5AFB50031AF6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFF2E08D1AB319CA003C3499</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

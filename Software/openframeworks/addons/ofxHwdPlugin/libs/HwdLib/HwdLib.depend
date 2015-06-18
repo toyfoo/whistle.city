@@ -1,0 +1,160 @@
+# depslib dependency file v1.0
+1402952570 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/Akon/Fftw/Fft.cpp
+	"Fft.h"
+	<algorithm>
+	<functional>
+
+1402952564 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/Akon/Fftw/Fft.h
+	"Utils.h"
+	<memory>
+	<type_traits>
+
+1402952788 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/Akon/Fftw/Utils.h
+	"Exception.h"
+	<fftw3.h>
+
+1402952784 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/Akon/Fftw/Exception.h
+	<stdexcept>
+
+1403278128 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/WhistleDetector.cpp
+	"WhistleDetector.h"
+	"Global.h"
+	<numeric>
+	<math.h>
+	<stdlib.h>
+
+1403266648 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/WhistleDetector.h
+	"@libhdr.h"
+	<deque>
+
+1403201380 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/@libhdr.h
+
+1402468734 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/Global.h
+
+1403266388 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/WindowSpikeDetector.cpp
+	"WindowSpikeDetector.h"
+	"Global.h"
+	<algorithm>
+	<numeric>
+
+1403266288 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/HwdLib/WindowSpikeDetector.h
+	"@libhdr.h"
+
+1402952570 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/Akon/Fftw/Fft.cpp
+	"Fft.h"
+	<algorithm>
+	<functional>
+
+1402952564 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/Akon/Fftw/Fft.h
+	"Utils.h"
+	<memory>
+	<type_traits>
+
+1402952788 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/Akon/Fftw/Utils.h
+	"Exception.h"
+	<fftw3.h>
+
+1402952784 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/Akon/Fftw/Exception.h
+	<stdexcept>
+
+1412762409 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/IntegratedWhistleDetector.cpp
+	"IntegratedWhistleDetector.h"
+	"IntegratedWhistleDetector_p.h"
+	<algorithm>
+	"Global.h"
+	"assert.h"
+
+1412761852 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/IntegratedWhistleDetector.h
+	"@libhdr.h"
+
+1403201380 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/@libhdr.h
+
+1412762409 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/IntegratedWhistleDetector_p.h
+	"DyWaObertoneDetector.h"
+	"FramePowerComparator.h"
+	"WindowSpikeDetector.h"
+	"WhistleDetector.h"
+	<Akon/Fftw/Fft.h>
+	<RtAudio.h>
+	<memory>
+	<stdexcept>
+
+1412758234 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/WindowSpikeDetector.h
+	"@libhdr.h"
+	<memory>
+
+1412758194 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/WhistleDetector.h
+	"@libhdr.h"
+	<deque>
+	"@libhdr.h"
+	<deque>
+
+1406197812 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/libs/rtAudio/include/RtAudio.h
+	<string>
+	<vector>
+	"RtError.h"
+	<windows.h>
+	<process.h>
+	<pthread.h>
+	<sys/time.h>
+	<sstream>
+	<CoreAudio/AudioHardware.h>
+
+1376200592 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/libs/rtAudio/include/RtError.h
+	<exception>
+	<iostream>
+	<string>
+
+1411485418 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/Global.h
+
+1412762543 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/WhistleDetector.cpp
+	"WhistleDetector.h"
+	"Global.h"
+	<numeric>
+	<math.h>
+	<assert.h>
+
+1412762924 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/WindowSpikeDetector.cpp
+	"WindowSpikeDetector.h"
+	"Global.h"
+	"Utils.h"
+	<Akon/Ipp/Utils.h>
+	<numeric>
+	<algorithm>
+	<math.h>
+	<assert.h>
+
+1412761305 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/FramePowerComparator.cpp
+	"FramePowerComparator.h"
+	"Utils.h"
+
+1412761313 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/FramePowerComparator.h
+	"@libhdr.h"
+
+1412679184 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/Utils.h
+
+1412761655 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/DyWaObertoneDetector.cpp
+	"DyWaObertoneDetector.h"
+	"Global.h"
+	<dywapitchtrack.h>
+	<assert.h>
+
+1411896542 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/DyWaObertoneDetector.h
+	"@libhdr.h"
+	<memory>
+
+1273229398 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/dywapitchtrack.h
+
+1412692590 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/Utils.cpp
+	"Utils.h"
+	<Akon/Ipp/Utils.h>
+	<numeric>
+
+1273229398 /home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/dywapitchtrack/dywapitchtrack.h
+
+1411925570 source:/home/olimex/plibs/of_v0.8.0_linuxarmv7l_release/addons/ofxHwdPlugin/libs/HwdLib/src/dywapitchtrack/dywapitchtrack.cpp
+	"dywapitchtrack.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DF56CEFE-0D51-4644-9A27-D4AE2AD5F25E</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>363F03AFEA2D7EEAB79476A26426EA95A67F33F2</key>
+		<string>https://github.com/bakercp/ofxSerial.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>363F03AFEA2D7EEAB79476A26426EA95A67F33F2</key>
+		<string>ofxSerial/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bakercp/ofxSerial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>363F03AFEA2D7EEAB79476A26426EA95A67F33F2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>363F03AFEA2D7EEAB79476A26426EA95A67F33F2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxSerial</string>
+		</dict>
+	</array>
+</dict>
+</plist>

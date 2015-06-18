@@ -1,0 +1,11 @@
+<group>
+    <color_beak>255, 0, 140, 255</color_beak>
+    <color_eye>209, 96, 255, 255</color_eye>
+    <color_body>255, 255, 0, 255</color_body>
+    <screen_size>1024x768</screen_size>
+<group/>
+<Configuration>
+		<Edit_Color>0</Edit_Color>
+		<Listen>0</Listen>
+	</Configuration>
+</group>

@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF20DC2B1AB5B1F50002AF21 /* @libhdr.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC101AB5B1F50002AF21 /* @libhdr.h */; };
+		FF20DC2C1AB5B1F50002AF21 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC131AB5B1F50002AF21 /* Exception.h */; };
+		FF20DC2D1AB5B1F50002AF21 /* Fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC141AB5B1F50002AF21 /* Fft.cpp */; };
+		FF20DC2E1AB5B1F50002AF21 /* Fft.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC151AB5B1F50002AF21 /* Fft.h */; };
+		FF20DC2F1AB5B1F50002AF21 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC161AB5B1F50002AF21 /* Utils.h */; };
+		FF20DC301AB5B1F50002AF21 /* DyWaObertoneDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC171AB5B1F50002AF21 /* DyWaObertoneDetector.cpp */; };
+		FF20DC311AB5B1F50002AF21 /* DyWaObertoneDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC181AB5B1F50002AF21 /* DyWaObertoneDetector.h */; };
+		FF20DC321AB5B1F50002AF21 /* dywapitchtrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC1C1AB5B1F50002AF21 /* dywapitchtrack.cpp */; };
+		FF20DC331AB5B1F50002AF21 /* dywapitchtrack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC1D1AB5B1F50002AF21 /* dywapitchtrack.h */; };
+		FF20DC341AB5B1F50002AF21 /* FramePowerComparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC1E1AB5B1F50002AF21 /* FramePowerComparator.cpp */; };
+		FF20DC351AB5B1F50002AF21 /* FramePowerComparator.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC1F1AB5B1F50002AF21 /* FramePowerComparator.h */; };
+		FF20DC361AB5B1F50002AF21 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC201AB5B1F50002AF21 /* Global.h */; };
+		FF20DC371AB5B1F50002AF21 /* IntegratedWhistleDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC211AB5B1F50002AF21 /* IntegratedWhistleDetector.cpp */; };
+		FF20DC381AB5B1F50002AF21 /* IntegratedWhistleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC221AB5B1F50002AF21 /* IntegratedWhistleDetector.h */; };
+		FF20DC391AB5B1F50002AF21 /* IntegratedWhistleDetector_p.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC231AB5B1F50002AF21 /* IntegratedWhistleDetector_p.h */; };
+		FF20DC3A1AB5B1F50002AF21 /* IntegratedWhistleDetectorGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC241AB5B1F50002AF21 /* IntegratedWhistleDetectorGlobal.h */; };
+		FF20DC3B1AB5B1F50002AF21 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC251AB5B1F50002AF21 /* Utils.cpp */; };
+		FF20DC3C1AB5B1F50002AF21 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC261AB5B1F50002AF21 /* Utils.h */; };
+		FF20DC3D1AB5B1F50002AF21 /* WhistleDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC271AB5B1F50002AF21 /* WhistleDetector.cpp */; };
+		FF20DC3E1AB5B1F50002AF21 /* WhistleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC281AB5B1F50002AF21 /* WhistleDetector.h */; };
+		FF20DC3F1AB5B1F50002AF21 /* WindowSpikeDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC291AB5B1F50002AF21 /* WindowSpikeDetector.cpp */; };
+		FF20DC401AB5B1F50002AF21 /* WindowSpikeDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC2A1AB5B1F50002AF21 /* WindowSpikeDetector.h */; };
+		FF7081621AB623C8000DE83D /* IntegratedWhistleDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC211AB5B1F50002AF21 /* IntegratedWhistleDetector.cpp */; };
+		FF7081631AB623C8000DE83D /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC251AB5B1F50002AF21 /* Utils.cpp */; };
+		FF7081641AB623C8000DE83D /* DyWaObertoneDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC171AB5B1F50002AF21 /* DyWaObertoneDetector.cpp */; };
+		FF7081651AB623C8000DE83D /* FramePowerComparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC1E1AB5B1F50002AF21 /* FramePowerComparator.cpp */; };
+		FF7081661AB623C8000DE83D /* WhistleDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC271AB5B1F50002AF21 /* WhistleDetector.cpp */; };
+		FF7081671AB623C8000DE83D /* dywapitchtrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC1C1AB5B1F50002AF21 /* dywapitchtrack.cpp */; };
+		FF7081681AB623C8000DE83D /* WindowSpikeDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC291AB5B1F50002AF21 /* WindowSpikeDetector.cpp */; };
+		FF7081691AB623C8000DE83D /* Fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF20DC141AB5B1F50002AF21 /* Fft.cpp */; };
+		FF70816C1AB623C8000DE83D /* Fft.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC151AB5B1F50002AF21 /* Fft.h */; };
+		FF70816D1AB623C8000DE83D /* FramePowerComparator.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC1F1AB5B1F50002AF21 /* FramePowerComparator.h */; };
+		FF70816E1AB623C8000DE83D /* WhistleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC281AB5B1F50002AF21 /* WhistleDetector.h */; };
+		FF70816F1AB623C8000DE83D /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC131AB5B1F50002AF21 /* Exception.h */; };
+		FF7081701AB623C8000DE83D /* dywapitchtrack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC1D1AB5B1F50002AF21 /* dywapitchtrack.h */; };
+		FF7081711AB623C8000DE83D /* WindowSpikeDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC2A1AB5B1F50002AF21 /* WindowSpikeDetector.h */; };
+		FF7081721AB623C8000DE83D /* IntegratedWhistleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC221AB5B1F50002AF21 /* IntegratedWhistleDetector.h */; };
+		FF7081731AB623C8000DE83D /* IntegratedWhistleDetectorGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC241AB5B1F50002AF21 /* IntegratedWhistleDetectorGlobal.h */; };
+		FF7081741AB623C8000DE83D /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC261AB5B1F50002AF21 /* Utils.h */; };
+		FF7081751AB623C8000DE83D /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC161AB5B1F50002AF21 /* Utils.h */; };
+		FF7081761AB623C8000DE83D /* @libhdr.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC101AB5B1F50002AF21 /* @libhdr.h */; };
+		FF7081771AB623C8000DE83D /* IntegratedWhistleDetector_p.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC231AB5B1F50002AF21 /* IntegratedWhistleDetector_p.h */; };
+		FF7081781AB623C8000DE83D /* DyWaObertoneDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC181AB5B1F50002AF21 /* DyWaObertoneDetector.h */; };
+		FF7081791AB623C8000DE83D /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = FF20DC201AB5B1F50002AF21 /* Global.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F763080A1AECF56D0049A45A /* HwdLibDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = HwdLibDebug.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F763080C1AECFA3A0049A45A /* HwdLibDllDebug.dylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = HwdLibDllDebug.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF20DC101AB5B1F50002AF21 /* @libhdr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "@libhdr.h"; sourceTree = "<group>"; };
+		FF20DC131AB5B1F50002AF21 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		FF20DC141AB5B1F50002AF21 /* Fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fft.cpp; sourceTree = "<group>"; };
+		FF20DC151AB5B1F50002AF21 /* Fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fft.h; sourceTree = "<group>"; };
+		FF20DC161AB5B1F50002AF21 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		FF20DC171AB5B1F50002AF21 /* DyWaObertoneDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyWaObertoneDetector.cpp; sourceTree = "<group>"; };
+		FF20DC181AB5B1F50002AF21 /* DyWaObertoneDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DyWaObertoneDetector.h; sourceTree = "<group>"; };
+		FF20DC1A1AB5B1F50002AF21 /* AKON_README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AKON_README; sourceTree = "<group>"; };
+		FF20DC1B1AB5B1F50002AF21 /* dywapitchtrack-original.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "dywapitchtrack-original.zip"; sourceTree = "<group>"; };
+		FF20DC1C1AB5B1F50002AF21 /* dywapitchtrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dywapitchtrack.cpp; sourceTree = "<group>"; };
+		FF20DC1D1AB5B1F50002AF21 /* dywapitchtrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dywapitchtrack.h; sourceTree = "<group>"; };
+		FF20DC1E1AB5B1F50002AF21 /* FramePowerComparator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FramePowerComparator.cpp; sourceTree = "<group>"; };
+		FF20DC1F1AB5B1F50002AF21 /* FramePowerComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramePowerComparator.h; sourceTree = "<group>"; };
+		FF20DC201AB5B1F50002AF21 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		FF20DC211AB5B1F50002AF21 /* IntegratedWhistleDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntegratedWhistleDetector.cpp; sourceTree = "<group>"; };
+		FF20DC221AB5B1F50002AF21 /* IntegratedWhistleDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegratedWhistleDetector.h; sourceTree = "<group>"; };
+		FF20DC231AB5B1F50002AF21 /* IntegratedWhistleDetector_p.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegratedWhistleDetector_p.h; sourceTree = "<group>"; };
+		FF20DC241AB5B1F50002AF21 /* IntegratedWhistleDetectorGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegratedWhistleDetectorGlobal.h; sourceTree = "<group>"; };
+		FF20DC251AB5B1F50002AF21 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		FF20DC261AB5B1F50002AF21 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		FF20DC271AB5B1F50002AF21 /* WhistleDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WhistleDetector.cpp; sourceTree = "<group>"; };
+		FF20DC281AB5B1F50002AF21 /* WhistleDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhistleDetector.h; sourceTree = "<group>"; };
+		FF20DC291AB5B1F50002AF21 /* WindowSpikeDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WindowSpikeDetector.cpp; sourceTree = "<group>"; };
+		FF20DC2A1AB5B1F50002AF21 /* WindowSpikeDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowSpikeDetector.h; sourceTree = "<group>"; };
+		FFF2E0921AB319CA003C3499 /* HwdLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HwdLib-Prefix.pch"; sourceTree = "<group>"; };
+		FFF2E0931AB319CA003C3499 /* _HwdLibProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = _HwdLibProj.xcconfig; sourceTree = "<group>"; };
+		FFF2E0941AB319CA003C3499 /* _HwdLibTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = _HwdLibTarget.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF70816A1AB623C8000DE83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD76D681AB5AFB50031AF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF20DC0F1AB5B1F50002AF21 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FF20DC101AB5B1F50002AF21 /* @libhdr.h */,
+				FF20DC111AB5B1F50002AF21 /* Akon */,
+				FF20DC171AB5B1F50002AF21 /* DyWaObertoneDetector.cpp */,
+				FF20DC181AB5B1F50002AF21 /* DyWaObertoneDetector.h */,
+				FF20DC191AB5B1F50002AF21 /* dywapitchtrack */,
+				FF20DC1E1AB5B1F50002AF21 /* FramePowerComparator.cpp */,
+				FF20DC1F1AB5B1F50002AF21 /* FramePowerComparator.h */,
+				FF20DC201AB5B1F50002AF21 /* Global.h */,
+				FF20DC211AB5B1F50002AF21 /* IntegratedWhistleDetector.cpp */,
+				FF20DC221AB5B1F50002AF21 /* IntegratedWhistleDetector.h */,
+				FF20DC231AB5B1F50002AF21 /* IntegratedWhistleDetector_p.h */,
+				FF20DC241AB5B1F50002AF21 /* IntegratedWhistleDetectorGlobal.h */,
+				FF20DC251AB5B1F50002AF21 /* Utils.cpp */,
+				FF20DC261AB5B1F50002AF21 /* Utils.h */,
+				FF20DC271AB5B1F50002AF21 /* WhistleDetector.cpp */,
+				FF20DC281AB5B1F50002AF21 /* WhistleDetector.h */,
+				FF20DC291AB5B1F50002AF21 /* WindowSpikeDetector.cpp */,
+				FF20DC2A1AB5B1F50002AF21 /* WindowSpikeDetector.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		FF20DC111AB5B1F50002AF21 /* Akon */ = {
+			isa = PBXGroup;
+			children = (
+				FF20DC121AB5B1F50002AF21 /* Fftw */,
+			);
+			path = Akon;
+			sourceTree = "<group>";
+		};
+		FF20DC121AB5B1F50002AF21 /* Fftw */ = {
+			isa = PBXGroup;
+			children = (
+				FF20DC131AB5B1F50002AF21 /* Exception.h */,
+				FF20DC141AB5B1F50002AF21 /* Fft.cpp */,
+				FF20DC151AB5B1F50002AF21 /* Fft.h */,
+				FF20DC161AB5B1F50002AF21 /* Utils.h */,
+			);
+			path = Fftw;
+			sourceTree = "<group>";
+		};
+		FF20DC191AB5B1F50002AF21 /* dywapitchtrack */ = {
+			isa = PBXGroup;
+			children = (
+				FF20DC1A1AB5B1F50002AF21 /* AKON_README */,
+				FF20DC1B1AB5B1F50002AF21 /* dywapitchtrack-original.zip */,
+				FF20DC1C1AB5B1F50002AF21 /* dywapitchtrack.cpp */,
+				FF20DC1D1AB5B1F50002AF21 /* dywapitchtrack.h */,
+			);
+			path = dywapitchtrack;
+			sourceTree = "<group>";
+		};
+		FF4DC9041AB5A85800982E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF2E0851AB319CA003C3499 = {
+			isa = PBXGroup;
+			children = (
+				FF20DC0F1AB5B1F50002AF21 /* src */,
+				FFF2E0901AB319CA003C3499 /* HwdLib */,
+				FF4DC9041AB5A85800982E09 /* Products */,
+				F763080A1AECF56D0049A45A /* HwdLibDebug.a */,
+				F763080C1AECFA3A0049A45A /* HwdLibDllDebug.dylib */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF2E0901AB319CA003C3499 /* HwdLib */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2E0931AB319CA003C3499 /* _HwdLibProj.xcconfig */,
+				FFF2E0941AB319CA003C3499 /* _HwdLibTarget.xcconfig */,
+				FFF2E0911AB319CA003C3499 /* Supporting Files */,
+			);
+			path = HwdLib;
+			sourceTree = "<group>";
+		};
+		FFF2E0911AB319CA003C3499 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2E0921AB319CA003C3499 /* HwdLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF70816B1AB623C8000DE83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF70816C1AB623C8000DE83D /* Fft.h in Headers */,
+				FF70816D1AB623C8000DE83D /* FramePowerComparator.h in Headers */,
+				FF70816E1AB623C8000DE83D /* WhistleDetector.h in Headers */,
+				FF70816F1AB623C8000DE83D /* Exception.h in Headers */,
+				FF7081701AB623C8000DE83D /* dywapitchtrack.h in Headers */,
+				FF7081711AB623C8000DE83D /* WindowSpikeDetector.h in Headers */,
+				FF7081721AB623C8000DE83D /* IntegratedWhistleDetector.h in Headers */,
+				FF7081731AB623C8000DE83D /* IntegratedWhistleDetectorGlobal.h in Headers */,
+				FF7081741AB623C8000DE83D /* Utils.h in Headers */,
+				FF7081751AB623C8000DE83D /* Utils.h in Headers */,
+				FF7081761AB623C8000DE83D /* @libhdr.h in Headers */,
+				FF7081771AB623C8000DE83D /* IntegratedWhistleDetector_p.h in Headers */,
+				FF7081781AB623C8000DE83D /* DyWaObertoneDetector.h in Headers */,
+				FF7081791AB623C8000DE83D /* Global.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD76D691AB5AFB50031AF6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF20DC2E1AB5B1F50002AF21 /* Fft.h in Headers */,
+				FF20DC351AB5B1F50002AF21 /* FramePowerComparator.h in Headers */,
+				FF20DC3E1AB5B1F50002AF21 /* WhistleDetector.h in Headers */,
+				FF20DC2C1AB5B1F50002AF21 /* Exception.h in Headers */,
+				FF20DC331AB5B1F50002AF21 /* dywapitchtrack.h in Headers */,
+				FF20DC401AB5B1F50002AF21 /* WindowSpikeDetector.h in Headers */,
+				FF20DC381AB5B1F50002AF21 /* IntegratedWhistleDetector.h in Headers */,
+				FF20DC3A1AB5B1F50002AF21 /* IntegratedWhistleDetectorGlobal.h in Headers */,
+				FF20DC3C1AB5B1F50002AF21 /* Utils.h in Headers */,
+				FF20DC2F1AB5B1F50002AF21 /* Utils.h in Headers */,
+				FF20DC2B1AB5B1F50002AF21 /* @libhdr.h in Headers */,
+				FF20DC391AB5B1F50002AF21 /* IntegratedWhistleDetector_p.h in Headers */,
+				FF20DC311AB5B1F50002AF21 /* DyWaObertoneDetector.h in Headers */,
+				FF20DC361AB5B1F50002AF21 /* Global.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF7081601AB623C8000DE83D /* HwdLibDll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF70817A1AB623C8000DE83D /* Build configuration list for PBXNativeTarget "HwdLibDll" */;
+			buildPhases = (
+				FF7081611AB623C8000DE83D /* Sources */,
+				FF70816A1AB623C8000DE83D /* Frameworks */,
+				FF70816B1AB623C8000DE83D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HwdLibDll;
+			productName = HwdLib;
+			productReference = F763080C1AECFA3A0049A45A /* HwdLibDllDebug.dylib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FFD76D6A1AB5AFB50031AF6C /* HwdLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD76D6C1AB5AFB50031AF6C /* Build configuration list for PBXNativeTarget "HwdLib" */;
+			buildPhases = (
+				FFD76D671AB5AFB50031AF6C /* Sources */,
+				FFD76D681AB5AFB50031AF6C /* Frameworks */,
+				FFD76D691AB5AFB50031AF6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HwdLib;
+			productName = HwdLib;
+			productReference = F763080A1AECF56D0049A45A /* HwdLibDebug.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF2E0861AB319CA003C3499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Akon;
+			};
+			buildConfigurationList = FFF2E0891AB319CA003C3499 /* Build configuration list for PBXProject "HwdLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFF2E0851AB319CA003C3499;
+			productRefGroup = FFF2E0851AB319CA003C3499;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD76D6A1AB5AFB50031AF6C /* HwdLib */,
+				FF7081601AB623C8000DE83D /* HwdLibDll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7081611AB623C8000DE83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7081621AB623C8000DE83D /* IntegratedWhistleDetector.cpp in Sources */,
+				FF7081631AB623C8000DE83D /* Utils.cpp in Sources */,
+				FF7081641AB623C8000DE83D /* DyWaObertoneDetector.cpp in Sources */,
+				FF7081651AB623C8000DE83D /* FramePowerComparator.cpp in Sources */,
+				FF7081661AB623C8000DE83D /* WhistleDetector.cpp in Sources */,
+				FF7081671AB623C8000DE83D /* dywapitchtrack.cpp in Sources */,
+				FF7081681AB623C8000DE83D /* WindowSpikeDetector.cpp in Sources */,
+				FF7081691AB623C8000DE83D /* Fft.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD76D671AB5AFB50031AF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF20DC371AB5B1F50002AF21 /* IntegratedWhistleDetector.cpp in Sources */,
+				FF20DC3B1AB5B1F50002AF21 /* Utils.cpp in Sources */,
+				FF20DC301AB5B1F50002AF21 /* DyWaObertoneDetector.cpp in Sources */,
+				FF20DC341AB5B1F50002AF21 /* FramePowerComparator.cpp in Sources */,
+				FF20DC3D1AB5B1F50002AF21 /* WhistleDetector.cpp in Sources */,
+				FF20DC321AB5B1F50002AF21 /* dywapitchtrack.cpp in Sources */,
+				FF20DC3F1AB5B1F50002AF21 /* WindowSpikeDetector.cpp in Sources */,
+				FF20DC2D1AB5B1F50002AF21 /* Fft.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF70817B1AB623C8000DE83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/src",
+					/usr/local/include,
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = (
+					"-lrtaudio",
+					"-lfftw3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+			};
+			name = Debug;
+		};
+		FF70817C1AB623C8000DE83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/src",
+					/usr/local/include,
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = (
+					"-lfftw3",
+					"-lrtaudio",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFD76D6D1AB5AFB50031AF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+			};
+			name = Debug;
+		};
+		FFD76D6E1AB5AFB50031AF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = a;
+				EXECUTABLE_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFF2E0991AB319CA003C3499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/lib/osx/";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../../libs/rtAudio/include",
+					"$(SRCROOT)/src",
+					/usr/local/include,
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FFF2E09A1AB319CA003C3499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/lib/osx/";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../../libs/rtAudio/include",
+					"$(SRCROOT)/src",
+					/usr/local/include,
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF70817A1AB623C8000DE83D /* Build configuration list for PBXNativeTarget "HwdLibDll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF70817B1AB623C8000DE83D /* Debug */,
+				FF70817C1AB623C8000DE83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD76D6C1AB5AFB50031AF6C /* Build configuration list for PBXNativeTarget "HwdLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD76D6D1AB5AFB50031AF6C /* Debug */,
+				FFD76D6E1AB5AFB50031AF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF2E0891AB319CA003C3499 /* Build configuration list for PBXProject "HwdLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF2E0991AB319CA003C3499 /* Debug */,
+				FFF2E09A1AB319CA003C3499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF2E0861AB319CA003C3499 /* Project object */;
+}

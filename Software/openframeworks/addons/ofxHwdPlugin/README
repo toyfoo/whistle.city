@@ -1,0 +1,82 @@
+The ofxHwdPlugin consists of two components:
+- HwdPlugin: places under ofxHwdPlugin/libs, does not depend from oF classes, but depends from some libs shipped with oF (e.g. rtAudio).
+- Wrapper for convenient usage with oF: places under ofxHwdPlugin/src.
+
+
+
+
+Building the HwdPlugin for ARM/Linux (e.g. Olimex A20) with Code::Blocks
+
+There is already built plugin for ARM/Linux, and no special actions need to use the plugin from an app. But, if desired, the plugin may be rebuilt. Building the plugin is mandatory for other platform, e.g. Mac.
+
+The HwdPlugin has the following dependencies:
+- FFTW;
+- RtAudio from oF bundle (RtAudio from oF bundle for one's requires: asound and pulse-simple (these libs are in system)).
+
+There is project file for Code::Blocks. To build: 
+1. From Code::Blocks IDE open project file ofxHwdPlugin/libs/HwdLib/HwdLib.cbp.
+2. Build. Built files are places under ofxHwdPlugin/libs/HwdLib/lib/linuxarmv7l.
+
+
+
+
+Building the HwdPlugin for Mac with Code::Blocks (not checked)
+
+There is no special Code::Blocks project file for Mac. The one for ARM/Linux must be used and edited. Dependencies are still the same, but there may be some difference in library names (e.g fftw-3 instead fftw), so to fix this issue ofxHwdPlugin/libs/HwdLib/HwdLib.cbp must be edited. Also, output for ARM/Linux is "linuxarmv7l" folder and for Mac there must be some other. Again, ofxHwdPlugin/libs/HwdLib/HwdLib.cbp must be edited to fix this folder name. Then the edited HwdLib.cbp may be used to build for Mac with Code::Blocks.
+
+
+
+
+Building the HwdPlugin for Mac with XCode (not checked)
+
+You must create to project with output target - static library. Then add to the project all plugin source files (all *.h and *.cpp files under ofxHwdPlugin/libs/HwdLib/src, recursively). Then add dependencies: fftw, rtaudio (rtaudio may require additianal dependencies: at least asound and pulse-simple under ARM/Linux). At successful built static lib will created. This lib must be placed under ofxHwdPlugin/libs/HwdLib/lib folder.
+
+
+
+
+Changelog:
+
+v0.0.0: 
+Initial version
+
+v0.1.0:
+- More convenient usage with oF (Poco::FastMutex is under the wrapper, etc.)
+
+v0.1.1:
+- No functional changes. Changes in addon_config.mk to directly specify the addon source files; this breaks recursive directory scanning by oF's make scripts and allows to the plugin source files to be unhidden (previously, these files were packed). The plugin may be compiled immediately from Code::Blocks with ofxHwdPlugin/libs/HwdLib/HwdLib.cbp file. The plugin wrapper (ofxHwdPlugin/src/ofxIntegratedWhistleDetector.h,cpp) is compiled from a user project.
+- Removing transient "HwdLib" folder under fxHwdPlugin/libs/HwdLib/src
+- Using relative pathes for "Custom Variables" (AKON_INCLUDE and OF_ROOT) in ofxHwdPlugin/libs/HwdLib/HwdLib.cbp. 
+
+v0.2.0:
+- Changes in the algorithm (using noise compensation, 1024 samples for STFT, changes in looking range).
+- Added whistle sequence detector (ofxWhistleSequenceDetector).
+
+v0.3.0:
+- Changed ofxWhistleSequenceDetector::Transition::sequenceId() behaviour.
+- Added ofxWhistleSequenceDetector::reset().
+- Added ofxWhistleSequenceDetector's final state special behaviour (only state changing on timeout).
+
+v0.4.0:
+- Changed ofxWhistleSequenceDetector's final state behaviour: timeout counts from last whistle, not from state enter.
+
+v0.5.0:
+- WhistleDetector: added second power threshold to fix whistle end. Averaging over all whistle contour, not last points only.
+
+v0.5.1:
+- ofxWhistleSequenceDetector: replaced buggy clock() with ofGetSystemTime().
+
+v0.6.0:
+- Changes in the algorithm (Akon::HwdLib::WindowSpikeDetector, Akon::HwdLib::WhistleDetector).
+- Added overtone detector (dywapitchtrack) to filter out speech, cat's sounds, vocal sounds. 
+- Added weak spikes shadowing after strong ones (on Olimex A20 (may be it is particular mic feature) at end of a whistle there is very weak tail that may detected as a whistle).
+- Added signal power threshold (Akon::HwdLib::FramePowerComparator); signal below the threshold is ignored, this prevents false positives from "silence". 
+- More exact whistle frequency determination (interpolation).
+- Added whistle duration info.
+
+v0.6a(mac).0:
+- Added MAC OS X support and Xcode project files (was tested with MAC OS X 10.8.5 Mountain Lion and Xcode 5). Due to using libc++ to have C++11 in the plugin, there is only possible dynamic library of HwdLib to hide libc++ inside.  
+- Removed Code::Blocks (ARM/Linux) project files for simplicity.
+
+v0.7.0
+- Added MAC OS X support and Xcode project files (was tested with MAC OS X 10.8.5 Mountain Lion and Xcode 5). Due to using libc++ to have C++11 in the plugin, there is only possible dynamic library of HwdLib to hide libc++ inside.  
+- Added overtone detector on/off live setting.

@@ -1,0 +1,8 @@
+<Sparrows>
+	<unsent>0</unsent>
+	<profileColor>#CC6633</profileColor>
+	<onHour>8</onHour>
+	<offHour>23</offHour>
+	<gameType>1</gameType>
+	<objectId>VISIT_WHISTLE.CITY_TO_GENERATE_OBJECT_ID</objectId>
+</Sparrows>
